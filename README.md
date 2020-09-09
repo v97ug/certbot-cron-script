@@ -8,6 +8,16 @@ This is a cron script in order to execute certbot regularly. We need to install 
 $ ./certbot-cron-script.sh
 ```
 
+# How to set cron?
+
+Run `sudo crontab -e`, then add link the following command.
+
+```
+# m h  dom mon dow   command
+28 22 15 * * /home/ubuntu/cron-script/cron-script.sh >> /home/ubuntu/cron_script.log
+53 10 28 * * /home/ubuntu/cron-script/cron-script.sh >> /home/ubuntu/cron_script.log
+```
+
 # Option
 
 | option | description | example |
