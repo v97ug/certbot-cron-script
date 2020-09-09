@@ -1,6 +1,6 @@
 # certbot-cron-script
 
-This is a cron script in order to execute certbot regularly. We need to install [https://certbot.eff.org/](certbot) in advance.
+This is a cron script in order to execute certbot regularly. We need to install [certbot](https://certbot.eff.org/) in advance.
 
 # How it works?
 
